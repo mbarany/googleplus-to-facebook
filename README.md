@@ -6,6 +6,10 @@ This script runs via a cronjob to periodically check for new Google+ Posts and t
 * Any server that can run a cronjob (Tested on CentOS 6)
 
 ## Setup
+* Get the code
+  * `git clone https://github.com/mbarany/googleplus-to-facebook.git`
+  * `cd googleplus-to-facebook`
+  * `git submodule update --init`
 * Go to https://developers.facebook.com/ and Create a new Facebook App
   * Click `Add Platform` and select website. you'll need a Site URL for authorization
   * You need your Facebook Account to authorize the App to post for you. Simply plugin the values to the following link.
