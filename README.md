@@ -1,5 +1,5 @@
 # Post your Google+ Posts to Facebook
-This script runs via a cronjob to periodically check for new Google+ Posts
+This script runs via a cronjob to periodically check for new Google+ Posts and then posts those to Facebook. Ideally the Google+ API should have a webhook to let us know when there's a new post, but since that doesn't exist this polling method will have to do.
 
 ## Requirements
 * PHP 5.3+ (for namespaces)
