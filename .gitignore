@@ -1,0 +1,5 @@
+.idea/
+private/*
+!private/config.sample.php
+cache/*
+!cache/.empty
